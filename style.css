@@ -1,4 +1,9 @@
+
 body {
-    background-color: darkcyan;
-    flex: 1;
+    background-color: lightcyan;
+}
+p {
+    margin: 5px;
+    margin-right: 3000px;
+    display: inline;
 }
