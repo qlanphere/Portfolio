@@ -1,18 +1,47 @@
 
 body {
-    background-color: lightcyan;
-    text-align: center;
-    padding: 0px 500px 0px 500px;
+    background-color: whitesmoke;
     
 }
-p {
-    display: inline;
-    margin-right: 500px;
-}
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+
+
+.header {
+    font-family: 'Bitter', serif;
+    color:white;
+    margin:0;
+    background-color: #002F6C;
 }
 
-#image1 {
-    padding: 0px 300px 0px 300px;
+.navbar {
+    margin:0;
+}
+
+.container {
+    margin:0;
+}
+
+nav > a , h4 {
+    color:whitesmoke;
+}
+
+.col-centered {
+    float:none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.row {
+    justify-content:space-evenly;
+}
+
+.card {
+    max-width:18rem;
+}
+
+#footer {
+    background-color:#002F6C ;
+    display: flex;
+    justify-content: space-around;
 }
