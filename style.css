@@ -1,11 +1,47 @@
 
 body {
-    background-color: lightcyan;
+    background-color: whitesmoke;
+    
 }
-p {
-    display: inline;
-    margin-right: 500px;
+
+
+.header {
+    font-family: 'Bitter', serif;
+    color:white;
+    margin:0;
+    background-color: #002F6C;
 }
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+
+.navbar {
+    margin:0;
+}
+
+.container {
+    margin:0;
+}
+
+nav > a , h4 {
+    color:whitesmoke;
+}
+
+.col-centered {
+    float:none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.row {
+    justify-content:space-evenly;
+}
+
+.card {
+    max-width:18rem;
+}
+
+#footer {
+    background-color:#002F6C ;
+    display: flex;
+    justify-content: space-around;
 }

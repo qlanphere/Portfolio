@@ -4,29 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/945dfd9d02.js" crossorigin="anonymous"></script>
+       <title>Document</title>
 </head>
 <body>
-    <header>
-         <h1>Quinn Lanphere Portfolio</h1>
+    <header class = "container-fluid w-100 p-3 header">
+        <div class = "row">
+            <div class = "col">
+         <h4 class ="col">Quinn</h4>
+        </div>
+        <div class = "col">
+         <nav class = "navbar navbar col text-decoration-none text-warning ">
+             <a href = "">Home</a>
+             <a href = "">About Me</a>
+             <a href = "">Projects</a>
+             <a href = "">Contact Me</a>
+         </nav>
+        </div>
+        </div>
+
         </header>
-        <hr>
-    <h2>About me</h2>
-    <p>Hello, my name is Quinn Lanphere and I am a trainee Full Stack Developer with Futureproof from the US/UK. I have a curious personality and I am always looking to learn new things. I started learning to codew while studying engineering at University suing MATLAB. I realised I enjoyed the problem solving aspect and decided to try and learn Python as well using various web resources. I am excited and eager to jump into the world of Full Stack Development.</p>
-    <figure>
-        <img height = 600px width = 1000px src = "https://i.pinimg.com/originals/3b/c8/b4/3bc8b4d251b348e3979b821ca96a07b1.jpg">
-        <figcaption>
-            My Hometown of Friday Harbor, WA
-        </figcaption>
+        <main>
+        <div class = "container-fluid mt-5" >
+            <div class = "row ">
+                <div class = "col-sm-2"></div>
+                <div class = "col col-centered">
+    <h2 >About me</h2>
+    <p>Hello, my name is Quinn Lanphere and I am a trainee Full Stack Developer with Futureproof from the US/UK. I have a curious personality and I am always looking to learn new things. I graduated from the Universtiy of Glasgow with a masters in Aeronatuical Engineering. During my time at University, I learned some basic coding by using MatLab for various projects. I realised I enjoyed the problem solving aspect and decided to try and learn Python as well using online resources. I am excited and eager to jump into the world of Full Stack Development.</p>
+    </div>
+    <figure class= "col col-centered figure-img img-fluid ">
+    <img class = "rounded-circle" width = 300px height = 300px src="https://i.pinimg.com/originals/3b/c8/b4/3bc8b4d251b348e3979b821ca96a07b1.jpg">
     </figure>
-    <h2>Strengths</h2>
-    <ul>
-        <li> Communication</li>
-        <li> Problem Solving</li>
-        <li> Research</li>
-        <li> Ambition</li>
-    </ul>
-    
+    </div>    
+    </div>
+    <h2 class = "ms-5">Projects</h2>
+    <div class = "container-fluid">
+        <section class = "row align-items">
+    <div class = "card col text-center m-5" style="width:18rem;">
+        <img src = "data:image/png;base64,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" class = "card-img-top">
+        <div class = "card-body">
+            
+            <h5 class = "card-title text-center">Project-1</h5>
+            <p class = "card-text text-center">In this project I...</p>
+            <a href="" class = "btn btn-primary align-items">Check it out</a>
+            
+        </div>
+    </div>
+    <div class = "card col text-center m-5" style="width: 18rem;">
+                <div class = "card-body">
+                    <img src = "https://preview.pixlr.com/images/800wm/100/1/1001485719.jpg" class = "card-img-top">
+            <h5 class = "card-title text-center"> Project-2</h5>
+            <p class = "card-text text-center">In this project I...</p>
+            <a href="" class = "btn btn-primary">Check it out</a>
+            
+        </div>
+    </div>
+    <div class = "card col text-center m-5" style="width:18rem;">
+        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWiuZBnMJjdgSPLjt4La8SlVKQfA24_0sNPg&usqp=CAU" class = "card-img-top">
+        <div class = "card-body">
+            <h5 class = "card-title text-center">Project-3</h5>
+            <p class = "card-text text-center" >In this project I...</p>
+            <a href="" class = "btn btn-primary">Check it out</a>
+        </div>
+    </div>
+</section>
+</div>
+
+<footer id ="footer" class = "navbar fixed-bottom">
+        <a href = "github.com/qlanphere">
+        <i class = "fab fa-github fa-3x"></i>
+        </a>
+        <a href = ""> <i class = "fab fa-linkedin fa-3x"></i></a>
+        <a href = ""> <i class = "fas fa-phone fa-3x"></i></a>
+</footer>
+</main>
 </body>
 </html>
